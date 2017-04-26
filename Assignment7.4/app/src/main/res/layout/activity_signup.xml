@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGreen"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pub.assignment.SignupActivity">
+
+
+    <EditText
+        android:id="@+id/editText_signup_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:textColor="@color/monsoon"
+        android:inputType="textPersonName"
+        android:hint="@string/username_email_id"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText__signup_confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:textColor="@color/monsoon"
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password"
+        android:layout_below="@+id/editText_signup_password"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button_signup_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/oil"
+        android:text="@string/signup"
+        android:layout_below="@+id/editText__signup_confirmpassword"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText_signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:textColor="@color/monsoon"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_below="@+id/editText_signup_username"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
